@@ -1,21 +1,22 @@
-package br.dev.leonardo;
+package br.dev.leonardo.webserver;
 
 public class Curso {
     private String nome;
     private int duracao;
 
-    public Curso() {}
-    public Curso(String nome, int duracao){
+    // Construtor
+    public Curso(String nome, int duracao) {
         this.nome = nome;
         this.duracao = duracao;
     }
 
-    public int getDuracao(){
-        return duracao;
-    }
-
-    public getNome(){
+    // Getter para o nome
+    public String getNome() {
         return nome;
     }
 
+    // Getter para a duração
+    public int getDuracao() {
+        return duracao;
+    }
 }
